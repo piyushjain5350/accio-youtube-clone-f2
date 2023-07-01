@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    background-color: #212121;
+    color: white;
+    font-family: 'Inter', sans-serif;
+}
+
+/* Navbar section */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-height: 70px;
+    border-bottom: 1px solid rgb(42,42,42);
+}
+.left,.middle,.right{
+    display: flex;
+    align-items: center;
+}
+.middle{
+    gap: 5px;
+}
+.middle .input input{
+    height: 30px;
+    width: 350px;
+    border: 0;
+    background-color: #121212;
+    padding: 5px 10px;
+    color: white;
+    font-size: 16px;
+}
+.middle .input input:focus{
+    border: 0;
+    outline: 0;
+}
+.middle .input button{
+    border: none;
+    height: 37px;
+    cursor: pointer;
+}
+.middle .input  button img{
+    height: 37px;
+}
+
+.middle .input{
+    display: flex;
+    align-items: center;
+}
+.middle .micIcon{
+    height: 35px;
+    border: none;
+    cursor: pointer;
+}
+.middle .micIcon img{
+    height: 35px;
+}
+.right{
+    margin-right: 2%;
+    gap:10px;
+}

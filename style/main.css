@@ -1,0 +1,145 @@
+    .sidebar{
+        height: 100vh;
+        padding: 10px;
+        width: 200px;
+        border-right: 2px solid rgb(42,42,42);
+    }
+    .icon{
+        display: flex;
+        align-items: center;
+        gap:10px;
+        margin-bottom:10px;
+        width: 100%;
+        padding: 5px;
+    }
+    .main-sidebar-section{
+        border-bottom: 2px solid rgb(42,42,42);
+    }
+    .side-sidebar-section{
+        margin: 10px 0;
+        border-bottom: 2px solid rgb(42,42,42);
+    }
+    .main-sidebar-section .home ,.home p ,.home img{
+        background-color: #303030;
+    }
+    main{
+        display: flex;
+    }
+
+
+    /* Main content */    
+
+.video-container{
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    grid-gap: 20px 5px;
+    overflow-x: hidden;
+    padding: 15px  30px;
+
+}
+
+.video{
+    min-height: 250px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+}
+
+.thumbnail{
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.content{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.channel-icon{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.title{
+    overflow: hidden;
+    color: white;
+}
+
+.channel-name{
+    font-size: 14px;
+    margin: 2px 0;
+    color: white;
+}
+
+
+
+.container{
+    padding: 5px 50px;
+    color: white;
+}
+.channelinfo {
+    display: flex;
+    align-items: center;
+}
+
+
+.comment {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.commentCont{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.stats {
+    display: flex;
+    align-items: center;
+}
+
+.likestats{
+    display: flex;
+    margin-left: 30px;
+    align-items: center;
+}
+
+.commentinfo {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+}
+
+.commentinfo p {
+    margin: 0;
+
+}
+
+.authorname {
+    font-size: 10px;
+}
+
+.channelinfo p {
+margin:  0;
+}
+
+.channelinfo{
+    margin-bottom: 20px;
+}
+
+.channelinfop {
+    font-size: 15px;
+}
+
+.co {
+    margin-top: 10px;
+}
