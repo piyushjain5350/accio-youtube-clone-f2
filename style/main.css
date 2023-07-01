@@ -29,13 +29,12 @@
 
     /* Main content */    
 
-.video-container{
+#videos-container{
     display: grid;
     grid-template-columns: repeat(4, 25%);
     grid-gap: 20px 5px;
     overflow-x: hidden;
     padding: 15px  30px;
-
 }
 
 .video{
@@ -48,8 +47,9 @@
 
 .thumbnail{
     width: 100%;
-    height: 150px;
+    height: 180px;
     object-fit: cover;
+    border-radius:10px ;
 }
 
 .content{
